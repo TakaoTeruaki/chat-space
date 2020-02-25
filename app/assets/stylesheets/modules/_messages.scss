@@ -40,17 +40,17 @@
     background-color: #2f3e51;
     padding: 20px 20px 0;
     .group {
-      margin-bottom: 40px;
-      color: #ffffff;
       font-weight: bold;
+      color: #ffffff;
       text-decoration: none;
-      .group-name {
+      &__name {
         font-size: 15px;
-        margin-right: 5px;
+        margin-top: 5px;
       }
-      .messege {
+      &__message {
         font-size: 11px;
-        margin-right: 5px;
+        margin-top: 5px;
+        margin-bottom: 40px;
       }
     }
   }
