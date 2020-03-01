@@ -108,6 +108,7 @@
     width: calc(100wh - 300px);
     padding: 40px 35px;
     background-color: #fafafa;
+    overflow: scroll;
 
     .message {
       padding-bottom: 46px;
