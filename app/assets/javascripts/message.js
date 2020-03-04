@@ -34,16 +34,7 @@ $(function(){
         </div>
       </div>`
 }else if (message.image) {
-      var html = `<div class="message" data-message-id=${message.id}>
-      <div class="message__upper-info">
-        <div class="message__upper-info__talkr">
-          ${message.user_name}
-        </div>
-        <div class="message__upper-info__date">
-          ${message.created_at}
-        </div>
-      </div>`
-
+      var html = 
         `<div class="message" data-message-id=${message.id}>
                   <div class="message__upper-info">
                     <div class="message__upper-info__talkr">
@@ -52,11 +43,6 @@ $(function(){
                     <div class="message__upper-info__date">
                       ${message.created_at}
                     </div>
-                  </div>
-                  <div class="message__text">
-                    <p class="lower-message__content">
-                      ${message.content}
-                    </p>
                   </div>
                   <img src=${message.image} >
                 </div>`
